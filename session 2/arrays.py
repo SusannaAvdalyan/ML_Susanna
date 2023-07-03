@@ -36,10 +36,10 @@ maxArr = np.max(randArr)
 minArr = np.min(randArr)
 sumArr = np.sum(randArr)
 sortArr = np.sort(randArr)
-shuffleArr = np.random.shuffle(randArr)
+shuffleArr = np.random.permutation(randArr)
 squareArr = randArr * randArr
 sqrtArr = np.sqrt(randArr)
-print(meanArr, maxArr, minArr, sumArr, sortArr, shuffleArr, squareArr, sqrtArr, randArr, sep = " ")    
+print(meanArr, maxArr, minArr, sumArr, sortArr, shuffleArr, squareArr, sqrtArr, randArr, sep = "//* ")    
     
 
 
